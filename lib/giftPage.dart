@@ -457,6 +457,7 @@ class _GiftPageState extends State<GiftPage> with TickerProviderStateMixin {
                               padding: EdgeInsets.all(3.0),
                               margin: EdgeInsets.all(0),
                               child: TextField(
+                                maxLength: 2,
                                 showCursor: true,
                                 keyboardType: TextInputType.number,
                                 decoration: AppTheme.inputExpMonthDecoration,
@@ -478,6 +479,7 @@ class _GiftPageState extends State<GiftPage> with TickerProviderStateMixin {
                               padding: EdgeInsets.all(3.0),
                               margin: EdgeInsets.all(0),
                               child: TextField(
+                                maxLength: 4,
                                 showCursor: true,
                                 keyboardType: TextInputType.number,
                                 decoration: AppTheme.inputExpYearDecoration,
